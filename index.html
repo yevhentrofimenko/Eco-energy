@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/flexslider.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src = 'js/jquery.flexslider.js'></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jcanvas.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <canvas id="myCanvas3" width="1920" height="1070">
+    </canvas>
+    <img class = 'header-bg-text' src="img/text.png">
+    <section class="content-header">
+        <ul class="nav">
+            <li class="logo"><a href="#"><img src="img/logo.png"></a></li>
+            <li class="contacts"><p>Киев: 095 686 89 67</p><p>Харьков:  095 686 89 67</p></li>
+            <li class="search"><input type="text" placeholder="Поиск по сайту"></li>
+            <li class="change-language"><select><option>RU</option><option>EN</option></select></li>
+        </ul>
+        <section class="slider">
+            <div id="slider" class="flexslider">
+                <ul class="slides">
+                    <li class="slide-li">
+                        <ul class="info-enclosed">
+                            <li class="text-li">
+                                <ul class="enclosed-ul">
+                                    <li><p>Технико-экономические расчеты</p></li>
+                                    <li><p>Проектирование</p></li>
+                                    <li><p>Авторский надзор</p></li>
+                                    <li><p>Технический надзор</p></li>
+                                </ul>
+                            </li>
+                            <li class="image-li"><div class="image-slider first-slide"></div></li>
+                        </ul>
+                        <p class="sub-title">Виды услуг</p>
+                        <h1>Заголовок Главная</h1>
+                        <a class="read-more-button">Подробнее</a>
+                    </li>
+                    <li class="slide-li slide-1">
+                        <ul class="info-enclosed">
+                            <li class="text-li">
+                                <ul class="enclosed-ul">
+                                    <li><p>Технико-экономические расчеты</p></li>
+                                    <li><p>Проектирование</p></li>
+                                    <li><p>Авторский надзор</p></li>
+                                    <li><p>Технический надзор</p></li>
+                                </ul>
+                            </li>
+                            <li class="image-li"><div class="image-slider first-slide"></div></li>
+                        </ul>
+                        <p class="sub-title">Текст(О компании)г</p>
+                        <h1>Заголовок О компании</h1>
+                        <a class="read-more-button">Подробнее</a>
+                    </li>
+                    <li class="slide-li slide-2">
+                        <ul class="info-enclosed">
+                            <li class="text-li">
+                                <ul class="enclosed-ul">
+                                    <li><p>Технико-экономические расчеты</p></li>
+                                    <li><p>Проектирование</p></li>
+                                    <li><p>Авторский надзор</p></li>
+                                    <li><p>Технический надзор</p></li>
+                                </ul>
+                            </li>
+                            <li class="image-li"><div class="image-slider first-slide"></div></li>
+                        </ul>
+                        <p class="sub-title">Текст (Обьекты)г</p>
+                        <h1>Заголовок Обьекты</h1>
+                        <a class="read-more-button">Подробнее</a>
+                    </li>
+                    <li class="slide-li slide-3">
+                        <ul class="info-enclosed">
+                            <li class="text-li">
+                                <ul class="enclosed-ul">
+                                    <li><p>расчеты</p></li>
+                                    <li><p>Проектирование</p></li>
+                                    <li><p>Авторский надзор</p></li>
+                                    <li><p>Технический надзор</p></li>
+                                </ul>
+                            </li>
+                            <li class="image-li"><div class="image-slider first-slide"></div></li>
+                        </ul>
+                        <p class="sub-title">Текст (Информация)</p>
+                        <h1>Заголовок Информация</h1>
+                        <a class="read-more-button">Подробнее</a>
+                    </li>
+                    <li class="slide-li slide-4">
+                        <ul class="info-enclosed">
+                            <li class="text-li">
+                                <ul class="enclosed-ul">
+                                    <li><p>Технико-экономические расчеты</p></li>
+                                    <li><p>Проектирование</p></li>
+                                    <li><p>Авторский надзор</p></li>
+                                    <li><p>Технический надзор</p></li>
+                                </ul>
+                            </li>
+                            <li class="image-li"><div class="image-slider first-slide"></div></li>
+                        </ul>
+                        <p class="sub-title">Текст (Контакты)</p>
+                        <h1>Заголовок Контакты</h1>
+                        <a class="read-more-button">Подробнее</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flexslider-controls">
+                <ol class="flex-control-nav">
+                    <li>
+                        <p>01<span> &nbsp; Главная</span></p>
+                    </li>
+                    <li>
+                        <p>02<span> &nbsp; О компании</span></p>
+                    </li>
+                    <li>
+                        <p>03<span> &nbsp; Обьекты</span></p>
+                    </li>
+                    <li>
+                        <p>04<span> &nbsp; Информация</span></p>
+                    </li>
+                    <li>
+                        <p>05<span> &nbsp; Контакты</span></p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </section>
+</div>
+<section class="section-1">
+    <div class="container-content">
+        <div class="top">
+            <div class="text-box">
+                <h2>Добро пожаловать</h2>
+                <p>Инженерный центр «ЭкоЭнергоПроект»
+                    осуществляет деятельность в сфере инновационных инженерных решений в 
+                    области сжигания твердого топлива для бытовых и производственных нужд:
+                </p>
+                <ul>
+                    <li>энергоаудит, составление технико-экономических расчетов и обоснований на основе анализа</li>
+                    <li>специфики региона и по­тенциалов местных видов топлива;</li>
+                </ul>
+            </div>
+            <div class="image-block">
+                <img src="img/section-1.png">
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="text-box">
+                <ul>
+                    <li>проектирование и согласование, оформление топочных и ко­тельных;</li>
+                    <li>проектирование и строительство складов твердого топлива, механизмов топливоподачи; </li>
+                    <li>поставка оборудования, монтаж, пусконаладочные работы и ввод в эксплуатацию;</li>
+                    <li>строительство топочных и котельных;</li>
+                    <li>комплексные системы автоматического управления (АСУ) для котельных;</li>
+                    <li>гарантийное сервисное обслуживание эксплуатируемых объектов.</li>
+                </ul>
+            </div>
+            <div class="image-block">
+                <img src="img/section-1(2).png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-2">
+    <div class="content-container">
+        <h2>Основная специализация</h2>
+        <div class="box-images">
+            <div class="box">
+                <div class="cont">
+                    <p>Твердотопливные
+                        теплогенераторы
+                    </p>
+                    <p>Теплогенераторы горячего воздуха на биомассе
+                        (пеллетах, дровах, угле, соломе, торфе и пр.)
+                        для организации отопления, складских, производственных
+                        , и прочих помещений.
+                    </p>
+                    <a href="#">Подробнее</a>
+
+                </div>
+                <img src="img/section-2(1).png">
+            </div>
+            <div class="box">
+                <div class="cont">
+                    <p>Твердотопливные
+                        теплогенераторы
+                    </p>
+                    <p>Теплогенераторы горячего воздуха на биомассе
+                        (пеллетах, дровах, угле, соломе, торфе и пр.)
+                        для организации отопления, складских, производственных
+                        , и прочих помещений.
+                    </p>
+                    <a href="#">Подробнее</a>
+
+                </div>
+                <img src="img/section-2)2).png">
+            </div>
+            <div class="box">
+                <div class="cont">
+                    <p>Твердотопливные
+                        теплогенераторы
+                    </p>
+                    <p>Теплогенераторы горячего воздуха на биомассе
+                        (пеллетах, дровах, угле, соломе, торфе и пр.)
+                        для организации отопления, складских, производственных
+                        , и прочих помещений.
+                    </p>
+                    <a href="#">Подробнее</a>
+
+                </div>
+                <img src="img/section-2(1).png">
+            </div>
+            <div class="box">
+                <div class="cont">
+                    <p>Твердотопливные
+                        теплогенераторы
+                    </p>
+                    <p>Теплогенераторы горячего воздуха на биомассе
+                        (пеллетах, дровах, угле, соломе, торфе и пр.)
+                        для организации отопления, складских, производственных
+                        , и прочих помещений.
+                    </p>
+                    <a href="#">Подробнее</a>
+
+                </div>
+                <img src="img/section-2)2).png">
+            </div>
+            <div class="box">
+                <div class="cont">
+                    <p>Твердотопливные
+                        теплогенераторы
+                    </p>
+                    <p>Теплогенераторы горячего воздуха на биомассе
+                        (пеллетах, дровах, угле, соломе, торфе и пр.)
+                        для организации отопления, складских, производственных
+                        , и прочих помещений.
+                    </p>
+                    <a href="#">Подробнее</a>
+
+                </div>
+                <img src="img/section-2(1).png">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-pass-0">
+</section>
+<section class="section-pass">
+    <div class="content">
+        <h2>Недавно Реализованные проекты</h2>
+    </div>
+</section>
+<section class="section-pass-2">
+    <div class="content">
+        <p>Проекты за последний год</p>
+    </div>
+</section>
+<section class="section-3">
+    <div class="content-box">
+        <div class="box">
+            <img src="img/section-3(1).png">
+            <p>Паровая котельная.
+                Завод по производству
+                биоэтанола</p>
+            <ul>
+                <li>Разработка концепции эскиза
+                    Разработка рабочего проекта.</li>
+                <li>Авторский надзор. Согласование проекта</li>
+            </ul>
+            <a href="#">Подробнее</a>
+        </div>
+        <div class="box">
+            <img src="img/section-3(2).png">
+            <p>Паровая котельная.
+                Завод по производству
+                биоэтанола</p>
+            <ul>
+                <li>Разработка концепции эскиза
+                    Разработка рабочего проекта.</li>
+                <li>Авторский надзор. Согласование проекта</li>
+            </ul>
+            <a href="#">Подробнее</a>
+        </div>
+        <div class="box">
+            <img src="img/section-3(1).png">
+            <p>Паровая котельная.
+                Завод по производству
+                биоэтанола</p>
+            <ul>
+                <li>Разработка концепции эскиза
+                    Разработка рабочего проекта.</li>
+                <li>Авторский надзор. Согласование проекта</li>
+            </ul>
+            <a href="#">Подробнее</a>
+        </div>
+    </div>
+
+</section>
+<section class="section-pass now-work">
+    <div class="content">
+        <h2 class="now-work-p2">СЕЙЧАС
+            В РАБОТЕ</h2>
+    </div>
+</section>
+<section class="section-pass-2 run-soon">
+    <div class="content">
+        <p>Запустим в ближайшем будущем
+        </p>
+    </div>
+</section>
+<section class="section-3 section-4 ">
+    <div class="content-box">
+        <div class="box">
+            <img src="img/section-4(1).png">
+            <p>Паровая котельная.
+                Завод по производству
+                биоэтанола</p>
+            <ul>
+                <li>Разработка концепции эскиза
+                    Разработка рабочего проекта.</li>
+                <li>Авторский надзор. Согласование проекта</li>
+            </ul>
+            <a href="#">Подробнее</a>
+        </div>
+        <div class="box">
+            <img src="img/section-4(2).png">
+            <p>Паровая котельная.
+                Завод по производству
+                биоэтанола</p>
+            <ul>
+                <li>Разработка концепции эскиза
+                    Разработка рабочего проекта.</li>
+                <li>Авторский надзор. Согласование проекта</li>
+            </ul>
+            <a href="#">Подробнее</a>
+        </div>
+        <div class="box">
+            <img src="img/section-4(3).png">
+            <p>Паровая котельная.
+                Завод по производству
+                биоэтанола</p>
+            <ul>
+                <li>Разработка концепции эскиза
+                    Разработка рабочего проекта.</li>
+                <li>Авторский надзор. Согласование проекта</li>
+            </ul>
+            <a href="#">Подробнее</a>
+        </div>
+    </div>
+
+</section>
+<footer>
+   <div class="footer-content">
+       <img src="img/footer-logo.png">
+       <ul>
+           <li><a>Главная</a><br><a>O Компании</a></li>
+           <li><a>Главная</a><br><a>O Компании</a></li>
+           <li><a>Гарантия</a><br><a>Вакансии</a></li>
+           <li><a>Обьекты</a><br><a>Информация</a></li>
+           <li><a>Сертификаты</a><br><a>Контакты</a></li>
+           <li><a>Киев: 095 686 89 67</a><br><a>Харьков: 095 686 89 67</a></li>
+           <li><img src="img/footer-logo-intelecrus.png"></li>
+       </ul>
+   </div>
+</footer>
+</body>
+</html>
